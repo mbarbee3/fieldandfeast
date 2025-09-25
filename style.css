@@ -23,7 +23,7 @@ body {
     font-family: var(--body-font);
     color: var(--dark-charcoal);
     margin: 0;
-    background-color: var(--linen);
+    background-color: var(--soft-white);
 }
 
 h1 {
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
     color: var(--linen);
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 header {
@@ -93,7 +93,32 @@ main section {
     margin: 20px 0;
 }
 
-#offerings h
+#offerings h3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#offerings p {
+    margin-top: 0px;
+}
+
+#gallery div {
+    text-align: center;
+    font-style: italic;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 0;
+    box-shadow: 0 0 5px var(--dark-charcoal);
+}
+
+#gallery img {
+    width: 100%;
+}
+
+#gallery p {
+    margin: 5px;
+    font-size: 0.9em;
+}
 
 footer {
     margin: 5vw;
