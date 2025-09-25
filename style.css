@@ -1,0 +1,115 @@
+/* CSS BY Matt Barbee */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
+
+
+/* ROOT VARIABLES */
+:root {
+    --body-font: Playfair Display;
+
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--body-font);
+    color: var(--dark-charcoal);
+    margin: 0;
+    background-color: var(--linen);
+}
+
+h1 {
+    color: var(--linen);
+    font-size: 4em;
+    margin: 0 25px;
+}
+
+h2 {
+    color: var(--midnight-blue);
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: var(--linen);
+    font-size: 2em;
+}
+
+header {
+    background: var(--midnight-blue);
+    color: var(--linen);
+    text-align: center;
+}
+
+header img {
+    width: 40vw;
+}
+
+header p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+header nav {
+    background: var(--champagne-gold);
+}
+
+header nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main {
+    margin: 5vw;
+}
+
+main section {
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+#offerings div {
+    color: var(--linen);
+    background-color: var(--olive-green);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#offerings h
+
+footer {
+    margin: 5vw;
+}
+
+/* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+    /
+}
+
+/* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+    /
+}
+
+/* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+    /
+}
