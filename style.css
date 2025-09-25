@@ -116,12 +116,31 @@ main section {
 }
 
 #gallery p {
-    margin: 5px;
     font-size: 0.9em;
 }
 
+#gallery a {
+    display: block;
+    background-color: var(--olive-green);
+    text-decoration: none;
+    color: var(--soft-white);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 footer {
-    margin: 5vw;
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    text-align: center;
+    padding: 25px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--champagne-gold);
 }
 
 /* MEDIA QUERY (medium) */
