@@ -145,7 +145,21 @@ footer p a {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px) {
-    /
+    h1 {
+        font-size: 8em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    header nav a {
+        font-size: 5em;
+    }
 }
 
 /* MEDIA QUERY (large) */
