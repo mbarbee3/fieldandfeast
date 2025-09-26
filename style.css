@@ -210,5 +210,17 @@ footer p a {
 
 /* MEDIA QUERY (xl) */
 @media screen and (min-width: 1200px) {
-    /
+    h1 {
+        font-size: 4.5em;
+    }
+
+    header img {
+        width: 15vw;
+    }
+
+    #galleryGrid {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
 }
